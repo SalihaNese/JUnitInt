@@ -87,7 +87,9 @@ public class C02_handleWindows {
     @After
     public void teardown(){
 
+        //driver.close();
         driver.quit();
+
     }
 
 }
